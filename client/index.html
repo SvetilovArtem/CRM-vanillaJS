@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <img src="../img/logo.png" alt="logo" class="logo">
+    <input type="text" class="searchInput">
+  </header>
+  <main class="main">
+    <section class="clients">
+      <h2 class="title">Клиенты</h2>
+      <table>
+        <thead>
+          <tr class="clients-thead__items">
+            <th class="clients-thead__item id-item">ID <div class="arrow"></div></th>
+            <th class="clients-thead__item name-item">Фамилия Имя Отчество <div class="arrow"></div></th>
+            <th class="clients-thead__item created-date">Дата и время создания<span class="arrow"></span></th>
+            <th class="clients-thead__item updated-date">Последние изменения <div class="arrow"></div></th>
+            <th class="clients-thead__item socials">Контакты</th>
+            <th class="clients-thead__item edit-item">Действия</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="clients-tbody">
+          <tr class="clients-tbody__row">
+            <td class="clients-tbody__item id-item">1</td>
+            <td class="clients-tbody__item name-item">Иванов Иван Иванович</td>
+            <td class="clients-tbody__item created-date">
+              06.05.2023  17.00
+            </td>
+            <td class="clients-tbody__item updated-date">
+              07.05.2023  19.00
+            </td>
+            <td class="clients-tbody__item socials">
+              <div class="icon vk"></div>
+              <div class="icon fb"></div>
+              <div class="icon phone"></div>
+            </td>
+            <td class="clients-tbody__item edit-item">
+              <div class="edit-icon"></div>
+              <span>Измерить</span>
+            </td>
+            <td class="clients-tbody__item delete-item">
+              <div class="delete-icon"></div>
+              <span>Удалить</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button type="button" class="clients-add-button">Добавить клиента</button>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>

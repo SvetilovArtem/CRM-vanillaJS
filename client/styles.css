@@ -1,0 +1,125 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* CLIENTS */
+
+.clients {
+
+}
+.clients-thead__items {
+  display: flex;
+  font-size: 12px;
+}
+.clients-thead__item {
+  display: flex;
+}
+.clients-tbody__row {
+  display: flex;
+}
+.clients-tbody__item {
+  font-size: 14px;
+}
+.id-item {
+  width: 142px;
+  font-size: 12px;
+}
+.name-item {
+  width: 221px;
+}
+.created-date {
+  width: 128px;
+}
+.updated-date {
+  width: 128px;
+}
+.socials {
+  width: 108px;
+  display: flex;
+  gap: 7px;
+}
+.edit-item {
+  width: 85px;
+  display: flex;
+  cursor: pointer;
+}
+.edit-item:hover, .delete-item:hover {
+  color: rgba(0, 0, 0, 0.55);
+}
+.delete-item {
+  display: flex;
+  cursor: pointer;
+}
+.delete-icon {
+  background-image: url(../img/cancel.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 12px;
+  height: 12px;
+  margin-right: 2px;
+}
+.edit-icon {
+  background-image: url(../img/edit.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 12px;
+  height: 12px;
+  margin-right: 2px;
+}
+.arrow {
+  background-image: url('../img/arrow_downward.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.vk {
+  background-image: url('../img/vk.png');
+}
+.fb {
+  background-image: url('../img/fb.png');
+}
+.phone {
+  background-image: url('../img/phone.png');
+}
+
+
+.add-modal {
+  display: block;
+  position: relative;
+  top: 20%;
+  left: calc(50% - 225px);
+  width: 450px;
+  height: 400px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
+  padding: 24px 30px 51px 30px;
+}
+.close-button-modal {
+  background-image: url('../img/close-icon.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+.add-modal-title {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.add-modal-form {
+  display: flex;
+  flex-direction: column;
+}
