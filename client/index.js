@@ -52,6 +52,7 @@ async function deleteClient(id) {
       'Content-Type': 'application/json;charset=utf-8'
     }
   })
+  document.location.reload()
   return {}
 }
 
