@@ -94,7 +94,7 @@ body {
 
 .add-modal {
   display: block;
-  position: relative;
+  position: fixed;
   top: 20%;
   left: calc(50% - 225px);
   width: 450px;
