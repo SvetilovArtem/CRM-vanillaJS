@@ -42,6 +42,7 @@ async function addClients() {
       )
     })
     addForm.reset()
+    document.location.reload()
 }
 
 async function deleteClient(id) {
